@@ -1,0 +1,1 @@
+import{j as s}from"./index-BM0bQ7W-.js";const a=()=>s.jsxs("div",{children:[s.jsx("h1",{children:"Dashboard Content"}),s.jsx("p",{children:"This is a placeholder dashboard."})]});export{a as default};
