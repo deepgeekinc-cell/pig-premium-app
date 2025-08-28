@@ -2,94 +2,19 @@
 <html lang="en">
   <head>
 
-<link rel="preload" href="/assets/Dashboard-CoX-uKcg.js" as="script">
-<link rel="preload" href="/assets/index-BljIoh9N.css" as="style">
-<link rel="preload" href="/assets/index-BM0bQ7W-.js" as="script">
+<link rel="preload" href="./assets/Dashboard-CoX-uKcg.js" as="script">
+<link rel="preload" href="./assets/index-BljIoh9N.css" as="style">
+<link rel="preload" href="./assets/index-BM0bQ7W-.js" as="script">
 
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="./manifest.json">
 <meta name="theme-color" content="#157f3d">
 
 <!-- OpenGraph / Twitter -->
 <meta property="og:title" content="Premium Pig — Your community & wallet app">
-<meta property="og:description" content="Community-driven features, secure wallet, and easy social sharing.">
-<meta property="og:image" content="/social_preview.png">
+<meta property="og:description" content="Community-driven features, secure wallet, and easy tools">
+<meta property="og:image" content="./social_preview.png">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Premium Pig — Your community & wallet app">
-<meta name="twitter:description" content="Community-driven features, secure wallet, and easy social sharing.">
-<meta name="twitter:image" content="/social_preview.png">
 
-<style id="cookie-style">
-#cookie-banner{position:fixed;left:20px;right:20px;bottom:20px;background:#fff;border-radius:12px;padding:16px;box-shadow:0 6px 24px rgba(0,0,0,0.12);display:flex;gap:12px;align-items:center;z-index:9999}
-#cookie-banner p{margin:0;padding:0;font-size:14px;color:#111}
-.cookie-btn{background:#157f3d;color:white;padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
-.cookie-btn.secondary{background:transparent;color:#157f3d;border:1px solid #157f3d}
-@media (max-width:520px){#cookie-banner{flex-direction:column;align-items:stretch}}
-</style>
-
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/src/assets/premium_pig_logo_simplified.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Premium Pig - Financial Domination Platform</title>
-    <meta name="description" content="The ultimate financial domination platform for Goddesses and devoted paypigs. Join the most exclusive findom community." />
-    <meta name="keywords" content="financial domination, findom, tribute, paypig, goddess, premium" />
-    <script type="module" crossorigin src="/assets/index-BM0bQ7W-.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BljIoh9N.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  
-<script>
-(function(){
-  if (localStorage.getItem('pp_cookie_consent')) return;
-  document.addEventListener('DOMContentLoaded', function(){
-    var style = document.getElementById('cookie-style');
-    var div = document.createElement('div');
-    div.innerHTML = `\n<div id="cookie-banner" aria-live="polite" style="display:none">\n  <div style="flex:1">\n    <p><strong>We use cookies</strong> to improve your experience. Manage preferences in Privacy Policy.</p>\n  </div>\n  <div>\n    <button class="cookie-btn" id="accept-cookies">Accept</button>\n    <button class="cookie-btn secondary" id="manage-cookies">Manage</button>\n  </div>\n</div>\n`;
-    document.body.appendChild(div);
-    var banner = document.getElementById('cookie-banner');
-    banner.style.display = 'flex';
-    document.getElementById('accept-cookies').addEventListener('click', function(){
-      localStorage.setItem('pp_cookie_consent','accepted');
-      banner.style.display='none';
-    });
-    document.getElementById('manage-cookies').addEventListener('click', function(){
-      window.location.href = '/privacy.html';
-    });
-  });
-})();
-</script>
-
-<script>
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').catch(function(e){console.log('SW failed',e);});
-  });
-}
-</script>
-
-<footer style="padding:20px;text-align:center;font-size:13px;color:#666">
-  <a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms</a> · <a href="/data-deletion.html">Data Deletion</a>
-</footer>
-
-
-<script>
-// Analytics loader (consent-gated). Replace 'GA_MEASUREMENT_ID' with your ID.
-function loadAnalytics() {
-  if (window.__pp_analytics_loaded) return;
-  window.__pp_analytics_loaded = true;
-  // Example: Google Analytics gtag.js loader
-  (function(){var id='GA_MEASUREMENT_ID'; if(!id) return; var s=document.createElement('script'); s.async=true; s.src='https://www.googletagmanager.com/gtag/js?id='+id; document.head.appendChild(s); window.dataLayer=window.dataLayer||[]; function g(){dataLayer.push(arguments);} window.gtag=g; g('js', new Date()); g('config', id); })();
-}
-document.addEventListener('DOMContentLoaded', function(){
-  // If user already consented, load analytics
-  if (localStorage.getItem('pp_cookie_consent') === 'accepted') loadAnalytics();
-  // Hook into accept button if present
-  var btn = document.getElementById('accept-cookies');
-  if (btn) btn.addEventListener('click', function(){ loadAnalytics(); });
-});
-</script>
-
-</body>
-</html>
